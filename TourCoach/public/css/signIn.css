@@ -1,0 +1,95 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/RESOURCE/Signin/bg_picture.png');
+  background-size: cover;
+}
+.container .loginBox{
+  background-color: white;
+  width:525px;
+}
+.container .loginBox .input-table{
+  padding: 2.5rem;
+}
+.container .signBox .input-table{
+  height: 190px;
+}
+
+.container .passBox .input-table{
+  height: 200px;
+}
+.container .loginBox .input-table .table-title{
+  font-size: 17pt;
+  font-weight: 600;
+  color: #5a5a5a;
+  letter-spacing:3px;
+}
+.container .loginBox .input-table .table-box{
+  /*border: 1px solid black;*/
+}
+.container .loginBox .input-table .table-box .form-box{
+  margin-top: 2rem;
+}
+.container .loginBox .input-table .table-box .form-box .input-box{
+  margin-bottom: 1.6rem;
+  width:100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.8rem;
+}
+.container .loginBox .input-table .table-box .form-box .input-box .input-title{
+  font-size: 9pt;
+  width:60px;
+  display: block;
+  color:#5a5a5a;
+}
+.container .passBox .input-table .table-box .form-box .input-box .input-title{
+  width:120px;
+}
+.container .loginBox .input-table .table-box .form-box .input-box input[type='password']{
+  font-family: none;
+}
+.container .loginBox .input-table .table-box .form-box .input-box input{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 1.1rem;
+  font-size: 12pt;
+  padding-bottom: 0.4rem;
+}
+
+
+/*Bottom BOX*/
+.container .loginBox .bottom-box{
+  display: flex;
+  height: 3.5rem;
+}
+
+.container .loginBox .bottom-box .button-box{
+  width:50%;
+  height: 100%;
+}
+
+.container .loginBox .bottom-box .button-box button{
+  width:100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container .loginBox .bottom-box .login-box button{
+  background-color: #2d3b55;
+  color:white;
+  cursor: pointer;
+}

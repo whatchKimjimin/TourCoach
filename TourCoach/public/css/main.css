@@ -1,0 +1,309 @@
+.container{
+  width:100%;
+  height: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+}
+.container .chat-box{
+  /*border: 1px solid black;*/
+  /*height: 100%;*/
+  height: calc(100vh - 215px);
+  padding: 2rem;
+  /*display: flex;*/
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow: scroll;
+}
+.container .chat-box .chat-list{
+  height: 40px;
+  /*border: 1px solid black;*/
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.container .chat-box .chat-list-box{
+  height: 250px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.container .chat-box .chat-list .chat-inline{
+  /*height: 30px;*/
+  /*border: 1px solid black;*/
+  display: inline-block;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  min-height: 25px;
+  height: 100%;
+  border-radius: 18px;
+}
+.container .chat-box .chat-list .chat-inline .chat-index{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 13pt;
+  /*padding-top: 0.2rem;*/
+  padding-bottom: 0.5rem;
+}
+.container .chat-box .opp{
+  display: flex;
+  justify-content: flex-start;
+}
+.container .chat-box .me{
+  display: flex;
+  justify-content: flex-end;
+}
+.container .chat-box .opp .chat-inline{
+  background-color: #f7f8fa;
+}
+.container .chat-box .opp .chat-inline .chat-index{
+  color:#4f4f4f;
+}
+.container .chat-box .me .chat-inline{
+  background-color: #e3354e;
+}
+.container .chat-box .me .chat-inline .chat-index{
+  color:#fff;
+}
+.container .chat-box .chat-block-mid .mid-icon-box{
+  /*border: 1px solid black;*/
+  display: flex;
+
+}
+.chat-block-mid{
+  position: absolute;
+  /*left: 50%;
+  top: 50%;*/
+  width:100%;
+  display: flex;
+  justify-content: center;
+  top:50%;
+}
+.chat-block-mid .mid-icon-box{
+
+  display: flex;
+  flex-direction: row;
+}
+.chat-block-mid .mid-icon-box .mid-icon{
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  position: relative;
+}
+.chat-block-mid .mid-icon-box .mid-icon img{
+  width:30px;
+  height: auto;
+}
+.container .chat-input-item{
+  /*border: 1px solid black;*/
+  /*height: 100%;*/
+  flex-basis: 50px;
+  /*padding: 2rem;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+}
+.container .chat-input-item div{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.container .chat-input-item .mic img{
+  width:20px;
+  height: auto;
+  cursor: pointer;
+}
+.container .chat-input-item .key img{
+  width:25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.container .chat-input-box{
+  border: 1px solid rgb(219, 219, 219);
+  /*height: 80px;*/
+  display: flex;
+  align-items: center;
+  flex-basis: 80px;
+}
+
+.container .chat-input-box input{
+  outline: none;
+  border: none;
+  height: 90%;
+  font-size: 15pt;
+  color: #2f2f2f;
+  padding-left: 1rem;
+  width:100%;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: rgb(219, 219, 219);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(219, 219, 219);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(219, 219, 219);
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: rgb(219, 219, 219);
+  opacity: 1;
+}
+
+.container .chat-input-box .send-button{
+  padding-right: 1.5rem;
+}
+.container .chat-input-box .send-button img{
+  width:30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.project-card{
+  /*background-image: url('../img/temp/temp.png');*/
+  width:400px;
+  height:230px;
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+
+}
+.han{
+    background-image:url("../img/RESOURCE/FieldTourist/bg_tower.png");
+
+}
+.project-top-box{
+  flex-basis: 1rem;
+}
+.project-top-box .weather-box{
+  padding: 0.7rem;
+  color:white;
+  display: flex;
+  align-items: center;
+  font-size: 10pt;
+
+}
+.project-top-box .weather-box img{
+  width:20px;
+  height: auto;
+}
+.project-top-box .weather-box .weather-text{
+  margin-left: 0.3rem;
+}
+.project-mid-box {
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem;
+}
+.project-mid-box img{
+  width:13px;
+  height: auto;
+  cursor: pointer;
+}
+.project_bottom_explain{
+  display: flex;
+  flex-basis: 3.5rem;
+  flex-shrink: 2;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 1rem;
+  align-items: center;
+  justify-content:space-between;
+}
+.project-title{
+}
+.project-name{
+  font-size: 14pt;
+  font-weight: 600;
+}
+.project-subName{
+  font-size: 5pt;
+}
+.project_bottom_explain .project-btn{
+  display: flex;
+  font-size: 9pt;
+  height: 60%;
+
+}
+.project_bottom_explain .project-btn .side-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  width:80px;
+  border-radius: 18px;
+  margin-right: 0.5rem;
+  -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+.project_bottom_explain .project-btn .side-btn:hover{
+  background-color: white;
+  color:black;
+}
+.container .chat-locate-box{
+  border: 1px solid rgb(219, 219, 219);
+  /*height: 80px;*/
+  display: flex;
+  align-items: center;
+  flex-basis: 80px;
+  justify-content: space-around;
+}
+.container .chat-locate-box .input-box{
+  display: flex;
+  border: 1px solid black;
+  width:30%;
+  height: 55%;
+  border-radius: 23px;
+  align-items: center;
+  padding-left: 1.2rem;
+}
+.container .chat-locate-box .input-box img{
+  width:15px;
+  height: auto;
+}
+.container .chat-locate-box .input-box .input-text{
+  margin-left: 1rem;
+  font-size: 10pt;
+}
+@media (max-width : 650px){
+    .container .chat-locate-box{
+      flex-direction: column;
+    }
+    .container .chat-locate-box .input-box{
+      width:90%;
+      height: 40px;
+      /*margin-bottom: 0.5rem;*/
+    }
+    .container .chat-locate-box{
+      flex-basis: 150px;
+    }
+}
+
+
+/* voice animation */
+@keyframes updown{
+  0%{
+    top: 0;
+  }
+  50%{
+    top: 15px;
+  }
+  100%{
+    top: -15px;
+  }
+}
+.chat-block-mid .mid-icon-box .mid-icon:nth-child(1){
+	animation: updown 1.2s infinite ease-in-out alternate;
+}
+.chat-block-mid .mid-icon-box .mid-icon:nth-child(2){
+	animation: updown 1.2s 0.2s infinite ease-in-out alternate;
+}
+.chat-block-mid .mid-icon-box .mid-icon:nth-child(3){
+	animation: updown 1.2s 0.4s infinite ease-in-out alternate;
+}
+.chat-block-mid .mid-icon-box .mid-icon:nth-child(4){
+	animation: updown 1.2s 0.6s infinite ease-in-out alternate;
+}
+.chat-block-mid .mid-icon-box .mid-icon:nth-child(5){
+	animation: updown 1.2s 0.8s infinite ease-in-out alternate;
+}
