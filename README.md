@@ -1,7 +1,8 @@
 # Team
-> \> 백엔드  김지민(팀장) , 이형빈<br>
-  \> 디자인 김학준 <br>
-  \> 프론트 강은솔
+> \> 양영디지털고등학교  김지민( 팀장 , Backend )<br>
+  \> 양영디지털고등학교  이형빈( Backend ) <br>
+  \> 선린인터넷고등학교 김학준 ( Design ) <br>
+  \> 선린인터넷고등학교 강은솔 ( Frontend )
 
 # Introduce
 > 2017 SKT Smateen App+ 미래산업부문 AI 결선작품
